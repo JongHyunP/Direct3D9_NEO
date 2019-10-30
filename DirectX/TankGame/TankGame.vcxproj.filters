@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="01.Framework">
+      <UniqueIdentifier>{7ec2d9d0-804a-41b8-ba10-fea160a634ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Triangle">
+      <UniqueIdentifier>{1a1d0553-dad8-4f0e-8c62-be44b6f89d34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Camera">
+      <UniqueIdentifier>{2ac2b4db-8fe3-42a8-8ae3-5e1dad42d041}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Tank">
+      <UniqueIdentifier>{8a76e7b7-ecca-475b-b3a1-28dbbef22372}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.MeshObject">
+      <UniqueIdentifier>{d0dcb256-9be9-456d-a01e-f3262ddea8cd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameFramework.cpp">
+      <Filter>01.Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangle.cpp">
+      <Filter>02.Triangle</Filter>
+    </ClCompile>
+    <ClCompile Include="Tank.cpp">
+      <Filter>04.Tank</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraManager.cpp">
+      <Filter>03.Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshObject.cpp">
+      <Filter>05.MeshObject</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Common\value.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\defines.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFramework.h">
+      <Filter>01.Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangle.h">
+      <Filter>02.Triangle</Filter>
+    </ClInclude>
+    <ClInclude Include="Tank.h">
+      <Filter>04.Tank</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraManager.h">
+      <Filter>03.Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshObject.h">
+      <Filter>05.MeshObject</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
